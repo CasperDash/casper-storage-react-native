@@ -1,7 +1,7 @@
 import { secp256k1 as secp } from "@noble/curves/secp256k1";
 
 import { base16 } from "@scure/base";
-import KeyEncoder from "key-encoder";
+import KeyEncoder from "react-native-key-encoder";
 
 import { TypeUtils, Hex } from "../../utils";
 import { IAsymmetricKey } from "./interfaces";

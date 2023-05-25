@@ -1,7 +1,6 @@
-import KeyEncoder from "key-encoder";
-
 import { BaseKeyParser } from "./base-key-parser";
 import { EncryptionType } from "../../../cryptography";
+import KeyEncoder from "react-native-key-encoder";
 import { TypeUtils } from "../../../utils";
 
 const keyEncoder = new KeyEncoder('secp256k1');
